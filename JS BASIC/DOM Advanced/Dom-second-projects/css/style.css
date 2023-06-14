@@ -1,0 +1,68 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    text-align: center;
+}
+.money-container
+{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 100vh;
+    margin-top: 20px;
+}
+.money-container .money-img
+{
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    height: 100%;
+}
+.money-container .money-img img
+{
+    width: 100%;
+}
+.money-container .calculate-section
+{
+    width: 600px;
+    height: 500px;
+    margin: 100px;
+    box-shadow: 10px 20px 30px rgba(0,0,0,0.1);
+    margin: 10px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+.money-container .calculate-section h4
+{
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+.money-container .calculate-section label
+{
+    font-size: 18px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.money-container .calculate-section input[type='text']{
+    margin-bottom: 10px;
+}
+.money-container .calculate-section button
+{
+    margin-bottom: 10px;
+
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+}
